@@ -89,7 +89,7 @@ const MenuSwitch = ({items=[], child, fallback = null, ...props}) => (
 )
 
 const RouterMenu = ({items, ...props}) => (
-    <div>
+    <div className={style.container}>
         <nav className={style['app-menu']}>
             <ul>
                 {items.map((item) => {
